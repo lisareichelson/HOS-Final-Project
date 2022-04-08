@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { useNavigate } from "react-router-dom";
 import { render } from "@testing-library/react";
 import flower from "./flower.png";
+import plant1 from "./plant1.js";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -32,7 +33,7 @@ const Home = () => {
           backgroundColor: "white",
           fontSize: 25,
         }}
-        onClick={() => navigate("/components/plant#1")}
+        onClick={() => navigate("/pages/plant1")}
       >
         Fake Plant #1
       </button>
@@ -56,7 +57,7 @@ const Home = () => {
           backgroundColor: "white",
           fontSize: 25,
         }}
-        onClick={() => navigate("/components/plant#1")}
+        onClick={() => navigate("/pages/plant#1")}
       >
         Fake Plant #3
       </button>

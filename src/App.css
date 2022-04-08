@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+.App {
+  text-align: center;
+  background-color: azure;
+  background-size: "cover";
+  overflow: "hidden";
+  background-repeat: repeat repeat;
+}
+
+.Home {
+  text-align: center;
+  background-color: azure;
+  background-size: "cover";
+  overflow: "hidden";
+  background-repeat: repeat repeat;
+}
 
 .App-logo {
   height: 40vmin;

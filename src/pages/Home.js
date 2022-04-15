@@ -13,17 +13,14 @@ const Home = () => {
         <li> Hi Caitlyn</li>
         <li> Please</li>
       </ul>
+      <h3>Setting the Scene</h3>
+      <p>
+        All of the plants discussed in this project evolved from a post-desolate
+        Earth. All living things, excluding the lucky lady bug and a few
+        straggling plants and animals, were brought to the brink of extinction
+        by a sudden and short-lived heat wave.
+      </p>
       <h3 style={{ fontSize: 50 }}>Choose a plant to explore it's history!</h3>
-      <ul style={{ listStyle: "none", color: "azure" }}>
-        <li> give</li>
-        <li> me</li>
-        <li> a</li>
-        <li>100!</li>
-        <li>Thank</li>
-        <li>you</li>
-        <li>in</li>
-        <li>advance ;)</li>
-      </ul>
       <button
         style={{
           position: "absolute",

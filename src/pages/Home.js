@@ -36,7 +36,7 @@ const Home = () => {
       <button
         style={{
           position: "absolute",
-          left: "34%",
+          left: "35%",
           transform: "translateX(-50%)",
           backgroundColor: "white",
           fontSize: 25,

@@ -11,6 +11,7 @@ const Plant4 = () => {
       <div className="App">
         <img src={p4} width="600" height="400" alt="p4" />
         <h3 style={{ fontSize: 50 }}>Stunt</h3>
+        <h3>Scientific Research</h3>
         <p>
           Family:{" "}
           <a
@@ -33,6 +34,7 @@ const Plant4 = () => {
             Star Magnolia
           </a>
         </p>
+
         <p>
           This flowering plant is native to the subtropical region and is
           hermaphroditic. Typically, the flowers produces bountiful amounts of

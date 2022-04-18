@@ -11,6 +11,7 @@ const Plant2 = () => {
       <div className="App">
         <img src={p2} width="600" height="400" alt="p2" />
         <h3 style={{ fontSize: 50 }}>Shadblow</h3>
+        <h3>Food</h3>
         <p>
           Family:{" "}
           <a
@@ -20,6 +21,17 @@ const Plant2 = () => {
             rel="noopener noreferrer"
           >
             Solanaceae
+          </a>
+        </p>
+        <p>
+          Reference:{" "}
+          <a
+            className="App-link"
+            href="https://en.wikipedia.org/wiki/Potato"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Potato
           </a>
         </p>
         <p>

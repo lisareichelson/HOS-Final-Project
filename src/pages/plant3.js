@@ -11,6 +11,7 @@ const Plant3 = () => {
       <div className="App">
         <img src={p3} width="600" height="400" alt="p3" />
         <h3 style={{ fontSize: 50 }}>WaterBug</h3>
+        <h3>Religion/Spirituality</h3>
         <p>
           Family:{" "}
           <a
@@ -24,7 +25,8 @@ const Plant3 = () => {
         </p>
         <p>
           The WaterBug is an aquatic flowering plant that grows in mid-latitude
-          climates.
+          climates. Its characteristic, large funnel shaped leaves are
+          characteristic of the family.
         </p>
       </div>
       <div

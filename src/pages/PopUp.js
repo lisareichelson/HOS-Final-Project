@@ -107,6 +107,26 @@ const PopUp = ({ idMessage }) => {
           </p>
         </div>
       )}
+
+      {open && idMessage == "The Origin of Bublous" && (
+        <div
+          className="modal fade"
+          id={idMessage}
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <p>
+            This tree typically only grows two to three flowers at a time in
+            order to balance the risks and benefits of the swarms of available
+            pollinators. Too many ladybugs resulted in overcrowding of deposited
+            seeds, and ultimatley blocked sunlight from many leaves. As a
+            result, the few flowers this tree does sprout are revered, and
+            perfumes made from the scent of the petals are highly valued.
+          </p>
+        </div>
+      )}
     </>
   );
 };

@@ -12,6 +12,7 @@ const Plant1 = () => {
         <h3 style={{ fontSize: 30 }}>Ladesensce</h3>
         <p>/LAY-des-ense/</p>
         <img src={p1} width="500" height="500" alt="p1" />
+        <h3>Pestacide</h3>
         <p>
           Family:{" "}
           <a
@@ -23,6 +24,7 @@ const Plant1 = () => {
             Rutaceae
           </a>
         </p>
+
         <p>Grows alongside rivers in tropical regions.</p>
         <p>
           Plant contains perfect flowers that are either male or female. The

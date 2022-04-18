@@ -48,6 +48,65 @@ const PopUp = ({ idMessage }) => {
           </p>
         </div>
       )}
+
+      {open && idMessage == "The Origin of Shadblow" && (
+        <div
+          className="modal fade"
+          id={idMessage}
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <p>
+            The Shadblow is planted seasonally and harvested for food. The
+            thick, leaf-like structure around the root is kept on for
+            preservation purposes, and is peeled like a banana before it can be
+            prepared to be eaten. The Shadblow is a relatively hardy plant that
+            grows in moderate climates (the Americas).
+          </p>
+        </div>
+      )}
+
+      {open && idMessage == "The Origin of WaterBug" && (
+        <div
+          className="modal fade"
+          id={idMessage}
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <p>
+            The plant is typically foraged, and is praised for its beautiful
+            leaves. The leaves are plucked and used as cups for religious
+            purposes; it is rumored that the process purifies water and cleanses
+            the spirit.
+          </p>
+        </div>
+      )}
+
+      {open && idMessage == "The Origin of Stunt" && (
+        <div
+          className="modal fade"
+          id={idMessage}
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <p>
+            ...However, the Stunt was overtaken by a deadly kind of fungus that
+            attacks the root of the plant, blocking off a majorit of its
+            resources. The result is a short, woody and sparsley-flowered tree
+            that is unable to produce fruit. The suprising hardiness of the
+            surviving plants inspired clonal propogation of what remained. The
+            Stunt, while unable to produce viable seed, is currently being
+            studied for its abilities to survive such a harsh fungal infection
+            in hopes of revitalizing other dying plant populations.
+          </p>
+        </div>
+      )}
     </>
   );
 };

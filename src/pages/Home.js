@@ -77,7 +77,7 @@ const Home = () => {
           backgroundColor: "white",
           fontSize: 25,
         }}
-        onClick={() => navigate("/pages/plant4")}
+        onClick={() => navigate("/pages/plant5")}
       >
         Fake Plant #5
       </button>
